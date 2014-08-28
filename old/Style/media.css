@@ -1,0 +1,147 @@
+@media screen and (min-width: 640px) {
+	#imageGallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#imageGallery img {
+		width: 310px;
+	}
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 720px) {
+	nav {
+		float: right;
+	}
+	.home-img {
+		display: none;
+	}
+	.site-title {
+		float: left;
+	}
+}
+@media screen and (min-width: 720px) {
+/************************************************
+				GLOBAL
+************************************************/
+	.header-wrapper {
+		background: #fff;
+		border-bottom: 1px solid #e6e6e6; 
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+	}
+	.site-title {
+		color: #000;
+		display: inline-block;
+	}
+
+
+/************************************************
+				HOME PAGE
+************************************************/
+	.home-slider img {
+		display: table;
+		margin: 0 auto;
+		max-width: 640px;
+	}
+
+/************************************************
+				GALLERY PAGE
+************************************************/
+	.album-wrapper {
+		margin: 20px 2.6% 20px 0;
+		width: 30%;
+	}
+	.gallery-wrapper {
+		margin-left: 20px;
+	}
+
+/************************************************
+				ABOUT PAGE
+************************************************/
+	.bottom-wrapper {
+		border-bottom: 1px solid #000;
+		border-top: 1px solid #000;
+		display: table;
+		margin: 50px auto 0;
+		padding-bottom: 10px;
+		padding-top: 20px;
+		width: 100%;
+	}
+	.bottom-wrapper p {
+		font-size: .9em;
+	}
+	.col {
+		border-bottom: none;
+		border-right: 1px solid #aaa;
+		float: left;
+		height: 110px;
+		padding-top: 10px;
+		top: 46px;
+		width: 33%;
+	}
+	.lastcol {
+		border: none;
+	}
+}
+@media screen and (min-width: 830px) {
+	.about-text {
+		float: left;
+	}
+	.profile-pic {
+		float: left;
+		margin-right: 20px;
+	}
+	.profile-wrapper {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+
+@media screen and (min-width: 970px) {
+/************************************************
+				ABOUT PAGE
+************************************************/
+	.thumb-wrapper {
+		float: right;
+		margin-top: 120px;
+		padding: 20px 0;
+		position: relative;
+		width: 35%
+	}
+	.main-wrapper {
+		bottom: 0;
+		left: 0;
+		margin-top: 185px;
+		position: fixed;
+		width: 65%;
+	}
+	.mobile-footer {
+		display: none;
+	}
+	#imageGallery img {
+		width: 200px;
+	}
+	.inner-wrapper {
+		display: block;
+	}
+	.web-footer {
+		display: block;
+		font-size: .6em;
+		font-style: italic;
+	}
+}
+
+
+
+
+
+
+

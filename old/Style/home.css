@@ -1,0 +1,114 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+html,
+body {
+	height: 100%;
+}
+body {
+	background: #28061A;
+	font-family: sans-serif;
+	letter-spacing: .1em;
+	width: 100%;
+}
+header {
+	color: #fff;
+	margin: 20px;
+	text-shadow: 1px 1px 1px #000;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+nav a {
+	font-family: Avenir, 'Montserrat', Helvetica;
+	font-weight: 400;
+	text-transform: uppercase;
+}
+h1 {
+	font-size: 3em;
+}
+h2 {
+	font-size: .6em;
+	letter-spacing: 1.4em;
+}
+footer {
+	color: #fff;
+	font-style: italic;
+	font-size: .7em;
+	height: 60px;
+	text-align: center;
+	text-shadow: 1px 1px 1px #000;
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+nav {
+	margin: 30px 0;
+}
+nav a {
+	margin: 0 20px;
+}
+nav a:hover {
+	border-bottom: 2px dotted #fff;
+}
+.clearfix {
+	clear: both;
+}
+.content-wrapper {
+	min-height: 100%;
+	margin-bottom: -60px;
+}
+.home-img {
+	display: table;
+	margin: 0 auto;
+	width: 90%;
+}
+.stars {
+    z-index: 0; 
+    position: absolute; 
+    /* width: 420em; height: 70em; */
+    transform:translate3D(0em, 0em, 0); 
+    animation: stars 21s ease; 
+    transform-style: preserve-3d;
+}
+
+@media screen and (max-width: 768px) {
+	header {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	body{
+		background: url("../../img/background/wedding.jpg");
+		background-size: cover;
+		background-repeat: no-repeat;
+	}
+	nav {
+		float: right;
+	}
+	.home-img {
+		display: none;
+	}
+	.site-title {
+		float: left;
+	}
+}
+
+@media screen and (max-width: 1120px) {
+	body {
+		background-size: 1250px;
+	}
+}
+
+
+
+
+
+
+
+

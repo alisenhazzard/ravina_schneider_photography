@@ -1,0 +1,157 @@
+@media screen and (min-width: 640px) {
+/************************************************
+				ALBUM PAGE
+************************************************/
+	#imageGallery {
+		display: flex;
+		flex-wrap: wrap;
+		justify-content: center;
+	}
+	#imageGallery img {
+		width: 310px;
+	}
+}
+
+@media screen and (min-width: 720px) {
+/************************************************
+				GLOBAL
+************************************************/
+	.header-wrapper {
+		border-bottom: 1px solid #e6e6e6;
+	} 
+	.album {
+		background: #fff;
+		position: fixed;
+		width: 100%;
+		z-index: 1;
+	}
+	.site-title {
+		color: #000;
+		display: inline-block;
+	}
+
+
+/************************************************
+				HOME PAGE
+************************************************/
+	.home-slider img {
+		display: table;
+		margin: 0 auto;
+		max-width: 640px;
+	}
+
+/************************************************
+				GALLERY PAGE
+************************************************/
+	.album-wrapper {
+		margin: 20px 2.6% 20px 0;
+		width: 30%;
+	}
+	.gallery-wrapper {
+		margin-left: 20px;
+	}
+	.thumb-wrapper {
+		padding-top: 200px;
+	}
+
+/************************************************
+				ABOUT PAGE
+************************************************/
+	.lastcol {
+		border: none;
+	}
+	.profile-wrapper {
+		display: table;
+		margin: 0 auto;
+	}
+}
+
+@media screen and (min-width: 830px) {
+/************************************************
+				ABOUT PAGE
+************************************************/
+	.about-text {
+		float: left;
+	}
+	.profile-pic {
+		float: left;
+		margin-right: 20px;
+	}
+}
+
+@media screen and (min-width: 900px) {
+/************************************************
+				ABOUT PAGE
+************************************************/
+	.bottom-wrapper {
+		border-bottom: 1px solid #000;
+		border-top: 1px solid #000;
+	}
+	.col {
+		border-right: 1px solid #aaa;
+	}
+	.col,
+	.lastcol {
+		border-bottom: none;
+		float: left;
+		height: 78px;
+		width: 300px;
+	}
+}
+
+
+@media screen and (min-width: 970px) {
+/************************************************
+				GLOBAL
+************************************************/
+	nav {
+		display: none;
+	}
+	.web-nav {
+		color: inherit;
+		display: inline-block;
+		font-family: Avenir, 'Montserrat', Helvetica;
+		margin: 0 90px;
+		text-transform: uppercase;
+	}
+/************************************************
+				ABOUT PAGE
+************************************************/
+	.thumb-wrapper {
+		float: left;
+		margin-top: 109px;
+		padding: 20px 0;
+		position: relative;
+		width: 35%
+	}
+	.main-wrapper {
+		bottom: 0;
+		right: 0;
+		margin-top: 185px;
+		position: fixed;
+		width: 65%;
+	}
+	.mobile-footer {
+		display: none;
+	}
+	#imageGallery img {
+		width: 200px;
+	}
+	.inner-wrapper {
+		display: block;
+	}
+	.web-footer {
+		display: block;
+		font-size: .6em;
+		font-style: italic;
+	}
+
+}
+
+
+
+
+
+
+
+
